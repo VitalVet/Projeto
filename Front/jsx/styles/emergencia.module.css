@@ -1,0 +1,88 @@
+/* Emergencia.module.css */
+
+.emergenciaBody {
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .emergenciaHeader {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .emergenciaHeader h1 {
+    margin: 0;
+  }
+  
+  .emergenciaContainer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgb(197, 84, 84);
+    border-radius: 5px;
+  }
+  
+  .emergenciaParagraph {
+    line-height: 1.6;
+  }
+  
+  .emergenciaTitle {
+    color: #333;
+  }
+  
+  .emergenciaForm {
+    width: 100%;
+  }
+  
+  .emergenciaLabel {
+    font-weight: bold;
+  }
+  
+  .emergenciaInput,
+  .emergenciaTextarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .emergenciaSubmit,
+  .emergenciaLink {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 6%;
+  }
+  
+  .emergenciaSubmit:hover {
+    background-color: #555;
+  }
+  
+  .emergenciaLink {
+    position: relative;
+    left: 33%;
+    background-color: rgb(197, 84, 84);
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .emergenciaLink:hover {
+    background-color: rgb(117, 50, 50);
+  }
+  
+  .emergenciaFooter {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    height: 90px;
+  }

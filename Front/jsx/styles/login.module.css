@@ -1,0 +1,47 @@
+#register {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 350px;
+    border-radius: 3rem;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    right: 6vw;
+}
+
+#register p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+.field input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+button#registerBtn {
+    width: 100%;
+    border: none;
+    background-color: rgb(83, 129, 47);
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button#registerBtn:hover {
+    background-color: rgba(83, 129, 47, 0.589);
+}
+
+#Case {
+    font-size: 13px;
+}

@@ -1,0 +1,115 @@
+/* Estilos do cabeçalho (header) */
+.header {
+  width: 100%;
+  min-height: 500px;
+  background-image: url(/img/Header.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+  color: white;
+}
+#verde {
+  color: rgb(83, 129, 47);
+}
+.header-border {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#logo {
+  background-image: url(/img/amor.png);
+  font-size: 5rem;
+  text-shadow: black 2px 2px 1px;
+  padding: 1%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  margin-left: auto; 
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-left: 60%;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 6%;
+}
+
+.ul li {
+  margin: 0 51px;
+}
+
+.ul button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.ul button:hover {
+  color: rgba(105, 202, 31, 0.952);
+}
+
+/* Estilos do formulário de login */
+#register {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 350px;
+  border-radius: 3rem;
+  padding: 24px;
+  color: white;
+  position: absolute;
+  bottom: 25px;
+  right: 6vw;
+}
+
+#register p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+button#registerBtn {
+  width: 100%;
+  border: none;
+  background-color: rgb(83, 129, 47);
+  color: white;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button#registerBtn:hover {
+  background-color: rgba(83, 129, 47, 0.589);
+}
+
+#Case {
+  font-size: 13px;
+}
